@@ -30,8 +30,8 @@ const News = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>News</span>
-                <h3>Latest News</h3>
+                <span>Articles & Blog</span>
+                <h3>Latest Posts</h3>
               </div>
             </div>
           </div>

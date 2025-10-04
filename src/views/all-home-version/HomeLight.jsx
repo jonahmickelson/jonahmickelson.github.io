@@ -1,44 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
 import Portfolio from "../../components/PortfolioCreative";
 import News from "../../components/News";
-import ServiceMain from "../../components/service/ServiceMain";
 import Contact from "../../components/Contact";
-import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
 
 const HomeLight = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
   useEffect(() => {
-    document.body.classList.toggle("dark", isDarkMode);
-    localStorage.setItem("isDarkModeEnabled", isDarkMode);
-  }, [isDarkMode]);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+    // Always stay in light mode
+    document.body.classList.remove("dark");
+  }, []);
 
   return (
     <>
       <PageTitle title="Home Regular" />
-      {/* End page title for seo */}
-
-      <button className="theme-switcher-label" onClick={toggleDarkMode}>
-        {isDarkMode ? (
-          <>
-            <FaSun />
-          </>
-        ) : (
-          <>
-            <FaMoon />
-          </>
-        )}
-      </button>
+      {/* End page title for SEO */}
 
       <Tabs>
         <TabList>
@@ -47,7 +26,8 @@ const HomeLight = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
+                  {/* Use the light version logo */}
+                  <img src="/assets/img/logo/light.png" alt="brand" />
                 </Link>
               </div>
               {/* END LOGO */}
@@ -73,14 +53,6 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/setting.svg"
-                      alt="avatar"
-                    />
-                    <span className="menu_content">Service</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
@@ -92,7 +64,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
-                    <span className="menu_content">News</span>
+                    <span className="menu_content">Articles & Blog</span>
                   </Tab>
                   <Tab>
                     <img
@@ -100,14 +72,11 @@ const HomeLight = () => {
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
-                    <span className="menu_content"> Contact</span>
+                    <span className="menu_content">Contact</span>
                   </Tab>
                 </ul>
               </div>
               {/* END MENU */}
-
-              <CopyRight />
-              {/* END COPYRIGHT */}
             </div>
           </div>
           {/* END LEFT MENU CONTENT */}
@@ -137,17 +106,6 @@ const HomeLight = () => {
               {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  <ServiceMain />
-                </div>
-              </TabPanel>
-              {/* END ABOUT MENU TAB CONTENT */}
-
-              <TabPanel>
                 <Portfolio />
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
@@ -155,7 +113,7 @@ const HomeLight = () => {
               <TabPanel>
                 <News />
               </TabPanel>
-              {/* END NEWS MENU TAB CONTENT */}
+              {/* END ARTICLES & BLOG MENU TAB CONTENT */}
 
               <TabPanel>
                 <div

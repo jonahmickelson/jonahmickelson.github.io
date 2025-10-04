@@ -2,22 +2,44 @@ import React from "react";
 
 const Intro = () => {
   const introContent = {
-    image: "assets/img/slider/1.jpg",
-    name: "Adriano Smith",
-    designation: "Web Developer",
+    image: "assets/img/slider/jonah-bw-head.jpg", // <-- update with your photo filename
+    name: "Jonah Mickelson",
+    designation: "Statistics Student & Analyst",
     text: (
       <>
         <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          I was born and raised in the Annex, one of the oldest neighbourhoods
+          in Toronto. From an early age I was drawn to numbers, puzzles, and
+          competition—perhaps because learning was in the air with my proximity
+          to the University of Toronto. Playing and competing in chess from the
+          age of 7 complemented my keen interest and proficiency in mathematics,
+          while shows like <i>Dragon’s Den</i> and books such as <i>The Wealthy
+          Barber</i> and <i>The Intelligent Investor</i> kickstarted my passion
+          for investing.
         </p>
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          My passion for quantitative analysis led me to pursue a Bachelor of
+          Arts in Statistics at McGill University, where I’ve built strong
+          foundations in probability, statistical modeling, and machine
+          learning. I’ve applied these skills in both professional and athletic
+          contexts: during internships at Romspen Investment Corporation and
+          Environics Analytics, I developed value-at-risk models for USD/CAD
+          forward contracts, built tools for portfolio risk analysis, and worked
+          with geodemographic datasets to deliver insights for major Canadian
+          clients. At McGill, I have also applied the same analytical mindset to
+          sports, building basketball prediction models and developing tools to
+          track live plus-minus performance and shot-chart visualizations for
+          the McGill Men’s Basketball Team. These combined experiences have
+          reinforced my interest in trading, quantitative research, and
+          data-driven decision-making.
+        </p>
+        <p>
+          Outside of academics and finance, I’m an avid athlete. I compete in
+          road cycling with the Bateman’s Cycling Team, and I also enjoy the
+          strategy and focus of playing poker. Whether on the bike, at the poker
+          table, or in data projects, I bring the same drive to continuously
+          improve, push limits, and approach challenges with focus and
+          creativity.
         </p>
       </>
     ),
