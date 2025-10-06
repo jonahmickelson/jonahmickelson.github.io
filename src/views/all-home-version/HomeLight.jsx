@@ -24,14 +24,23 @@ const HomeLight = () => {
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
             <div className="leftpart_inner">
+              {/* LOGO SECTION */}
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  {/* Use the light version logo */}
-                  <img src="/assets/img/logo/light.png" alt="brand" />
+                  <img
+                    src="/assets/img/logo/jonah-logo.png"
+                    alt="Jonah Mickelson Logo"
+                    style={{
+                      width: "130px",
+                      height: "auto",
+                      maxWidth: "100%",
+                    }}
+                  />
                 </Link>
               </div>
               {/* END LOGO */}
 
+              {/* MENU */}
               <div className="menu">
                 <ul>
                   <Tab>
@@ -42,6 +51,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Home</span>
                   </Tab>
+
                   <Tab>
                     <img
                       className="svg"
@@ -50,6 +60,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">About</span>
                   </Tab>
+
                   <Tab>
                     <img
                       className="svg"
@@ -58,6 +69,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
+
                   <Tab>
                     <img
                       className="svg"
@@ -66,6 +78,7 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">Articles & Blog</span>
                   </Tab>
+
                   <Tab>
                     <img
                       className="svg"
