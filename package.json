@@ -2,7 +2,7 @@
   "name": "tokyo",
   "version": "2.3.0",
   "private": true,
-  "homepage": "https://jonahmickelson.github.io",
+  "homepage": "https://jonahmickelson.com",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.5",
