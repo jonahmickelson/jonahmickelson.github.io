@@ -9,6 +9,14 @@ const SocialShare = [
     iconName: "github",
     link: "https://github.com/jonahmickelson",
   },
+  {
+    iconName: "strava",
+    link: "https://www.strava.com/athletes/88358065",
+  },
+  {
+    iconName: "goodreads",
+    link: "https://www.goodreads.com/user/show/162016713-jonah-mickelson",
+  },
 ];
 
 const Social = () => {

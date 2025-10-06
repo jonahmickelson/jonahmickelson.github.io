@@ -26,7 +26,9 @@ const PersonalInfo = () => {
           name: "Email",
           content: (
             <>
-              <a href="jonah.mickelson@gmail.com">jonah.mickelson@gmail.com</a>
+              <a href="mailto:jonah.mickelson@gmail.com">
+                jonah.mickelson@gmail.com
+              </a>
             </>
           ),
         },
@@ -35,7 +37,7 @@ const PersonalInfo = () => {
           name: "Phone",
           content: (
             <>
-              <a href="tel:+1 647 459 3467">+1 647 459 3467</a>
+              <a href="tel:+16474593467">+1 647 459 3467</a>
             </>
           ),
         },
@@ -60,19 +62,10 @@ const PersonalInfo = () => {
           name: "Degree",
           content: "Bachelors",
         },
-        {
-          id: 4,
-          name: "Interest",
-          content: "Playing Football",
-        },
-        {
-          id: 5,
-          name: "Freelance",
-          content: "Available",
-        },
       ],
     },
   ];
+
   return (
     <>
       {personalInfoContent.map((item) => (

@@ -67,7 +67,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
-                    <span className="menu_content">Portfolio</span>
+                    <span className="menu_content">Projects</span>
                   </Tab>
 
                   <Tab>

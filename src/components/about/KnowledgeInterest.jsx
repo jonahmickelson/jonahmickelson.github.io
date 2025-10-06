@@ -1,17 +1,15 @@
 import React from "react";
 
 const KnowledgeInterest = () => {
-  const knowledgeContent = [
+  const interestsContent = [
     {
       id: 1,
       colClass: "left",
-      title: "Knowledge",
+      title: "Involvements",
       content: [
-        " Bootstrap, Angular",
-        " React, Vue, Laravel",
-        " Stylus, Sass, Less",
-        " Gulp, Webpack, Grunt",
-        " Tweenmax, GSAP",
+        "Bateman’s Cycling Team",
+        "McGill University Chess Team",
+        "Wychwood Tennis Club — Board Nominee",
       ],
     },
     {
@@ -19,18 +17,17 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Interests",
       content: [
-        " Make UI/UX Design",
-        " Create Mobile App",
-        " Site Optimization",
-        " Custom Website",
-        "Learn Ecommerce",
+        "Financial Markets and Quantitative Finance",
+        "Sports Analytics and Data Visualization",
+        "Chess, Poker, and Game Theory",
+        "Rugby, Cycling, and Basketball",
       ],
     },
   ];
 
   return (
     <>
-      {knowledgeContent.map((item) => (
+      {interestsContent.map((item) => (
         <div className={item.colClass} key={item.id}>
           <div className="tokyo_section_title">
             <h3>{item.title}</h3>
