@@ -1,0 +1,152 @@
+Indigenous Math Outreach in Prison: My Experience
+
+Introduction:
+
+I would like to begin by acknowledging Dr. Alia Sajjad and Dr. Rustum Choksi for their support
+in organizing the workshop and coordinating with the Joliette Institution for Women staff.
+Without their efforts, I doubt a second workshop would have taken place. Their guidance
+throughout the Indigenous Math Outreach in Prison course also helped us better prepare and plan
+for the sessions. I also want to extend a sincere thank you to Josh Goldman, who served as our
+leader and played a crucial role in helping us get ready.
+This report outlines my experience co-leading the workshop with Daniella at Joliette on Friday,
+April 25th, 2025. The first workshop, on February 21st led by Alex, Rylan, and Josh, focused on
+teaching Microsoft Word and Microsoft PowerPoint. Our goal for April 25th was to introduce
+Microsoft Excel and build on the past PowerPoint content. This report will describe our plan,
+highlight what worked and what didn’t, and conclude with my personal reflections on the day.
+
+Preparation and Plan:
+
+Josh, who participated in the previous iteration of the course, led a workshop at Joliette on
+October 25, 2024, that introduced the basics of Excel. We expected that most of the students we
+would be teaching had attended that session. For that reason, we planned a brief review of key
+Excel functions. To make this review more engaging, we decided to poll the class and create a
+small table that combined qualitative and quantitative data. We collected information such as
+Name, Age, Height, Number of Siblings, Province, Number of Kids, Number of Pets, and
+Favourite Ice Cream Flavour, which was suggested by one of the students.
+
+After refreshing the students on the basic formulas used for data analysis, we planned to help
+them explore their own hypothesis questions using one of the datasets we brought. At the
+October workshop, Josh’s group used a dataset on drug decriminalization. Because that topic was
+highly personal and sensitive for some inmates, Josh advised us to choose something different.
+We selected three datasets that allowed for meaningful analysis while avoiding potentially
+sensitive topics. The first was a climate dataset that included monthly temperature, precipitation,
+and snowfall records for each province since 1917. The second came from the Government of
+Canada and was titled Self-rated ability to speak and understand an Indigenous language. The
+third included NHL player data from the 2023–2024 season, covering goals, assists, points, and
+other stats. Our hope was that each student would choose the dataset that most interested them,
+and that Daniella, Duru, and I would guide them in exploring a hypothesis using Excel skills.
+Because we knew the class would be small and that students would have different levels of
+experience with Excel, we wanted to work with them one-on-one. This made preparation more
+challenging, since we couldn’t predict exactly what would be needed and we were not Excel
+experts ourselves. To prepare, we conducted our own analysis on the datasets and became
+familiar with the formulas and tools we would likely need to support the students.
+
+For the PowerPoint portion of the workshop in the afternoon, we planned for students to build a
+presentation based on their hypothesis and analysis. We also brought photos related to the themes
+of each dataset that they could incorporate into their presentations. To provide guidance, we
+prepared our own demo presentation as an example. Lastly, we created a short workbook with
+key Excel shortcuts, explanations of the functions we were teaching, and exploratory questions
+to help students decide on their hypothesis.
+
+My Experience:
+
+We encountered an initial challenge the evening prior, when Duru informed the team around
+11:00 p.m. that there were issues with her clearance forms and that she might be unable to attend.
+As each group member had focused on a different dataset, Daniella and I reviewed the NHL
+dataset, which had been Duru’s responsibility, to ensure we were prepared to cover that content,
+if necessary. On the morning of the workshop, Daniella and I met Josh outside the McConnell
+Engineering Building at approximately 7:30 a.m. for our scheduled Uber to Joliette. During the
+ride, we conducted a final review of the workshop structure and plan. We arrived at Joliette
+around 8:40 a.m. Upon arrival, I took a photo near the facility exterior; however, we were
+instructed to delete it immediately via intercom and again upon entering security. Oops.
+We were met by Jessica and Jacob in the parking lot. Jessica served as our main point of contact
+following Robin’s departure and played a key role in workshop coordination. Jacob, primarily
+based at Archambault prison, joined to support the session and was a tremendous help. At the
+front desk, we were informed by the correctional officer that neither Daniella nor I were listed as
+cleared visitors. It was later determined that staff had been expecting Josh, Alex, and Rylan to
+return, and had not received our submitted forms. While we waited in the lobby, Jessica worked
+to resolve the issue. Approximately thirty minutes later, the warden granted us special one-day
+clearance. As we prepared to enter the facility, a further issue arose regarding the laptop, which
+contained key workshop materials including our demo presentation. Permission to bring the
+computer inside had not yet been secured. Jessica left again to obtain approval, which was
+granted after a brief delay. We subsequently passed through security and entered the education
+wing shortly before the scheduled 9:30 a.m. start.
+
+The classroom consisted of six students, each with an individual computer and desk. The room
+was relatively small, with three rows of two desks, separated by a center aisle. At the front, a
+large monitor allowed us to project our materials from the laptop. Login and password issues for
+several students delayed the start of the session by approximately 20 to 30 minutes. During this
+time, I engaged with one of the students to give a sneak peek of the day’s activities. This is when
+it became apparent to me that none of the materials submitted in advance for preloading onto the
+classroom computers were not present. The only file accessible on their system was the drug
+decriminalization dataset used in the previous workshop, which had been distressing for some
+participants. As a result, we made a real time decision to shift our plan and perform our analysis
+with the dataset we built with the class instead.
+
+The remainder of the morning session proceeded smoothly. Students were actively engaged in
+the data collection and entry process. We created a simple dataset using variables seen in Figure
+1. The first activity introduced arithmetic operations through the conversion of heights from feet
+to centimeters. This was followed by an introduction to basic Excel functions, including MAX,
+MIN, AVERAGE, and SUM. During this stage, we encountered a technical complication. The
+French-language version of Excel required different syntax conventions, such as commas instead
+of periods for decimals, and semicolons rather than commas to separate function arguments. In
+addition, some function names were not directly translatable. In one instance, we were unable to
+locate the French equivalent of the COUNTIF function and were forced to skip that segment of
+the lesson. Despite these challenges, we adapted accordingly and concluded the morning session
+as scheduled.
+
+During the lunch break, Daniella and I reassessed our approach to the PowerPoint component,
+given that no hypothesis-based analysis had been completed. Upon returning at 1:00 p.m., only
+three of the original six students remained due to various reasons. We presented our demo
+PowerPoint; however, the level of engagement was low. In response, we encouraged students to
+create presentations on any topic of interest, regardless of its connection to the data. We provided
+support as needed, though students appeared to prefer independent, creative work. The
+atmosphere in the afternoon was notably more subdued. Jessica later explained that such a
+decrease in energy was common and expected during full-day workshops. The session concluded
+around 3:30 p.m. Notably, one student expressed interest in our return which was a highlight of
+the day. Following the workshop, we debriefed with Jessica and Jacob outside the facility. Our
+transportation arrived at approximately 4:15 p.m. to return us to the McConnell Engineering
+Building.
+
+Reflections:
+
+On the morning of the workshop, I found myself overthinking my choice of clothing. Although I
+had been told that jeans were acceptable, I felt unsure and questioned whether the outfit might
+appear too informal. This uncertainty likely stemmed from my own insecurity about my limited
+teaching experience. I found myself wondering whether we were truly qualified to be leading the
+workshop, given that we were not experts in the subject matter. A conversation with Jessica
+during the lunch break helped put these concerns into perspective. She emphasized that the most
+important thing was simply to show up and be present. She reassured us that our Excel skills
+were more than sufficient for the workshop’s goals, and that attitude and presence mattered more
+than expertise. In this regard, I believe Daniella and I demonstrated the right approach.
+At the start of the afternoon session, one of the students was delayed due to an issue with the
+correctional staff. We had been informed she might be 15 to 30 minutes late, but she ultimately
+arrived about 90 minutes into the session and appeared visibly upset. She was the only student
+coming from the maximum-security wing, and the guards were unaware that she had been
+scheduled to participate in the workshop. As a result, she was initially disengaged and
+unreceptive when I tried to prompt her with presentation ideas. However, over time she began
+working independently on a PowerPoint presentation about how to properly hunt moose. Her
+focus and commitment were remarkable, and witnessing her find a sense of purpose through that
+creative task was the most meaningful moment of the day for me. It reaffirmed the broader
+purpose of the workshop was to be a creative outlet and a humanizing experience, rather than
+simply a lesson in Excel formulas.
+
+After the workshop, I reflected on a conversation we had with Jessica and Jacob. I asked Jessica
+whether she knew the personal stories of the women she teaches, and she shared that a common
+offense among inmates at Joliette is infanticide. While I felt that I had built strong connections
+with the students and appreciated the interactions, I was grateful that I did not know their
+specific histories. Although I found the teaching experience deeply rewarding, I recognize that it
+would be difficult for me to maintain the same level of connection if I were aware of certain past
+actions that I personally find difficult to reconcile with. While I strive to empathize and
+understand that I cannot fully grasp the circumstances behind their stories, I acknowledge that I
+would find it challenging to completely set those details aside.
+
+Conclusion:
+
+I am extremely grateful for the opportunity to have participated in this course. It was an
+invaluable experience, during which I had the chance to meet thoughtful, engaging, and inspiring
+individuals. Looking ahead, I believe the continued success of this course requires selecting
+participants who are strong communicators and able to adapt in real time. Flexibility and
+improvisation are essential, as unexpected challenges are inevitable and plans rarely unfold
+exactly as intended. Overall, I believe the course was a success and offered a window into a
+world I might never have had the opportunity to see otherwise.
