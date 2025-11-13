@@ -4,11 +4,7 @@ import { Helmet } from "react-helmet-async";
 const PageTitle = ({ title }) => {
   return (
     <Helmet>
-      <title>
-        {title
-          ? `${title} | Jonah Mickelson`
-          : "Jonah Mickelson"}
-      </title>
+      <title>Jonah Mickelson</title>
     </Helmet>
   );
 };
