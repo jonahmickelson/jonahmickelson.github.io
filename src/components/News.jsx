@@ -13,7 +13,6 @@ const News = () => {
   };
 
   useEffect(() => {
-    // Load full article text from public folder
     fetch("/articles/prison-outreach.txt")
       .then((res) => res.text())
       .then((text) => setArticleText(text))
@@ -34,9 +33,9 @@ const News = () => {
           </div>
 
           <ul>
+            {/* ARTICLE 1 — MODAL */}
             <li data-aos="fade-right" data-aos-duration="1200">
               <div className="list_inner">
-                {/* PREVIEW IMAGE */}
                 <div className="image" onClick={toggleModal}>
                   <img
                     src="/assets/img/news/jonah-joliette.jpg"
@@ -51,7 +50,6 @@ const News = () => {
                   ></div>
                 </div>
 
-                {/* POST DETAILS */}
                 <div className="details">
                   <div className="extra">
                     <p className="date">
@@ -71,7 +69,6 @@ const News = () => {
                   </div>
                 </div>
 
-                {/* MODAL START */}
                 <Modal
                   isOpen={isOpen}
                   onRequestClose={toggleModal}
@@ -87,7 +84,6 @@ const News = () => {
 
                     <div className="box_inner">
                       <div className="description_wrap scrollable">
-                        {/* MODAL IMAGE */}
                         <div className="image">
                           <img
                             src="/assets/img/news/jonah-joliette.jpg"
@@ -102,7 +98,6 @@ const News = () => {
                           ></div>
                         </div>
 
-                        {/* HEADER DETAILS */}
                         <div className="details">
                           <div className="extra">
                             <p className="date">
@@ -115,7 +110,6 @@ const News = () => {
                           </h3>
                         </div>
 
-                        {/* MAIN CONTENT */}
                         <div className="main_content">
                           <div className="descriptions">
                             <pre
@@ -138,7 +132,66 @@ const News = () => {
                     </div>
                   </div>
                 </Modal>
-                {/* MODAL END */}
+              </div>
+            </li>
+
+            {/* ARTICLE 2 — PDF WITH ABSTRACT */}
+            <li data-aos="fade-right" data-aos-duration="1200">
+              <div className="list_inner">
+                <div className="image">
+                  <img
+                    src="/assets/img/news/math-paper.jpg"
+                    alt="Regression Adjustment Paper"
+                  />
+                  <div
+                    className="main"
+                    style={{
+                      backgroundImage:
+                        "url(/assets/img/news/math-paper.jpg)",
+                    }}
+                  ></div>
+                </div>
+
+                <div className="details">
+                  <div className="extra">
+                    <p className="date">
+                      By <a href="#">Jonah Mickelson</a>
+                      <span>December 2025</span>
+                    </p>
+                  </div>
+
+                  <h3 className="title">
+                    Regression Adjustment in Randomized Experiments: Revisiting
+                    Freedman and Lin Through Simulation
+                  </h3>
+
+                  <p style={{ marginTop: "12px", lineHeight: "1.6" }}>
+                    On regression adjustments to experimental data (Freedman,
+                    2008) challenged the conventional belief that regression
+                    adjustment automatically improves causal estimation in
+                    randomized trials. Under the Neyman framework, Freedman
+                    showed that while the unadjusted difference in means is
+                    unbiased, regression adjustment can introduce bias and
+                    increase variance in finite samples. Lin (2013) later
+                    demonstrated that including treatment–covariate interaction
+                    terms yields estimators that are consistent, asymptotically
+                    unbiased, and never less precise than the unadjusted
+                    estimator. This paper revisits both results through
+                    simulation, illustrating when regression adjustment helps,
+                    when it can hurt, and how fully interacted specifications
+                    restore good performance.
+                  </p>
+
+                  <div className="tokyo_tm_read_more">
+                    <a
+                      href="/pdfs/math533-regression-adjustment.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span>View PDF</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </li>
           </ul>
